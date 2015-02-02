@@ -1,0 +1,154 @@
+*********2014-04-11 14:06:47.048 load system module*********
+**load dbcp data source**
+*********2014-04-11 14:06:47.072 load task unit*********
+2014-04-11 14:06:47.074--BBB--start execute
+2014-04-11 14:06:47.074--BBB--execute successed
+2014-04-11 14:06:47.074--AAA--start execute
+2014-04-11 14:06:47.075--AAA--execute successed
+*********2014-04-11 14:07:19.484 load system module*********
+**load dbcp data source**
+*********2014-04-11 14:07:19.495 load task unit*********
+2014-04-11 14:07:19.496--BBB--start execute
+2014-04-11 14:07:19.497--AAA--start execute
+2014-04-11 14:07:19.497--AAA--execute successed
+2014-04-11 14:07:19.497--BBB--execute successed
+*********2014-04-11 14:08:04.294 load system module*********
+**load dbcp data source**
+*********2014-04-11 14:08:04.306 load task unit*********
+2014-04-11 14:08:04.307--BBB--start execute
+2014-04-11 14:08:04.307--AAA--start execute
+2014-04-11 14:08:04.307--BBB--execute successed
+2014-04-11 14:08:04.307--AAA--execute successed
+*********2014-04-11 14:13:33.494 load system module*********
+**load dbcp data source**
+*********2014-04-11 14:13:33.506 load task unit*********
+2014-04-11 14:13:33.507--BBB--start execute
+2014-04-11 14:13:33.507--AAA--start execute
+2014-04-11 14:13:33.507--BBB--execute successed
+2014-04-11 14:13:33.507--AAA--execute successed
+*********2014-04-11 14:13:44.836 load system module*********
+**load dbcp data source**
+*********2014-04-11 14:13:44.848 load task unit*********
+2014-04-11 14:13:44.849--BBB--start execute
+2014-04-11 14:13:44.850--AAA--start execute
+2014-04-11 14:13:44.850--AAA--execute successed
+2014-04-11 14:13:44.850--BBB--execute successed
+*********2014-04-11 14:14:42.960 load system module*********
+**load dbcp data source**
+*********2014-04-11 14:14:42.974 load task unit*********
+2014-04-11 14:14:42.975--BBB--start execute
+2014-04-11 14:14:42.975--AAA--start execute
+2014-04-11 14:14:42.975--BBB--execute successed
+2014-04-11 14:14:42.975--AAA--execute successed
+*********2014-04-11 14:20:51.327 load system module*********
+**load dbcp data source**
+*********2014-04-11 14:20:51.339 load task unit*********
+2014-04-11 14:20:51.340--BBB--start execute
+2014-04-11 14:20:51.340--AAA--start execute
+2014-04-11 14:20:51.341--BBB--execute successed
+2014-04-11 14:20:51.341--AAA--execute successed
+*********2014-04-11 14:21:39.411 load system module*********
+**load dbcp data source**
+*********2014-04-11 14:21:39.427 load task unit*********
+2014-04-11 14:21:39.428--BBB--start execute
+2014-04-11 14:21:39.429--AAA--start execute
+2014-04-11 14:21:39.429--BBB--execute successed
+2014-04-11 14:21:39.429--AAA--execute successed
+*********2014-04-11 14:23:04.137 load system module*********
+**load dbcp data source**
+*********2014-04-11 14:23:04.149 load task unit*********
+2014-04-11 14:23:04.150--BBB--start execute
+2014-04-11 14:23:04.150--AAA--start execute
+2014-04-11 14:23:04.150--BBB--execute successed
+2014-04-11 14:23:04.151--AAA--execute successed
+**close dbcp data source**
+*********2014-04-11 14:34:37.597 load system module*********
+**load dbcp data source**
+*********2014-04-11 14:34:37.609 load task unit*********
+2014-04-11 14:34:42.864--BBB--start execute
+2014-04-11 14:34:42.864--AAA--start execute
+2014-04-11 14:34:42.865--BBB--execute successed
+2014-04-11 14:34:42.866--AAA--execute successed
+**close dbcp data source**
+*********2014-04-11 14:36:22.739 load system module*********
+**load dbcp data source**
+*********2014-04-11 14:36:22.752 load task unit*********
+2014-04-11 14:36:24.946--BBB--start execute
+2014-04-11 14:36:24.949--AAA--start execute
+2014-04-11 14:36:24.950--AAA--execute successed
+2014-04-11 14:36:24.951--BBB--execute successed
+*********2014-04-11 14:36:24.952 close system module*********
+**close dbcp data source**
+*********2014-04-11 14:37:02.031 load system module*********
+**load dbcp data source**
+*********2014-04-11 14:37:02.042 load task unit*********
+2014-04-11 14:37:06.317--AAA--start execute
+2014-04-11 14:37:06.319--AAA--execute successed
+*********2014-04-11 14:37:06.319 close system module*********
+**close dbcp data source**
+*********2014-04-11 14:40:46.180 load system module*********
+**load dbcp data source**
+*********2014-04-11 14:40:46.193 load task unit*********
+----please choice a execute unit:----
+*********2014-04-11 14:41:21.625 load system module*********
+**load dbcp data source**
+*********2014-04-11 14:41:21.636 load task unit*********
+----please choice a execute unit:----
+2014-04-11 14:41:24.352--AAA--start execute
+2014-04-11 14:41:24.352--BBB--start execute
+2014-04-11 14:41:24.352--BBB--execute successed
+2014-04-11 14:41:24.352--AAA--execute successed
+*********2014-04-11 14:41:24.353 close system module*********
+**close dbcp data source**
+*********2014-04-11 14:41:28.083 load system module*********
+**load dbcp data source**
+*********2014-04-11 14:41:28.097 load task unit*********
+----please choice a execute unit:----
+*********2014-04-11 15:02:17.633 load system module*********
+**load dbcp data source**
+*********2014-04-11 15:02:17.633 load task unit*********
+----please choice a execute unit:----
+2014-04-11 15:02:39.801--AAA--start execute
+2014-04-11 15:02:39.801--AAA--execute successed
+*********2014-04-11 15:02:39.801 close system module*********
+**close dbcp data source**
+*********2014-04-11 15:02:47.010 load system module*********
+**load dbcp data source**
+*********2014-04-11 15:02:47.025 load task unit*********
+----please choice a execute unit:----
+2014-04-11 15:02:47.025--BBB--start execute
+2014-04-11 15:02:47.025--AAA--start execute
+2014-04-11 15:02:47.025--BBB--execute successed
+2014-04-11 15:02:47.025--AAA--execute successed
+*********2014-04-11 15:02:47.025 close system module*********
+**close dbcp data source**
+*********2014-04-11 18:11:27.746 load system module*********
+**load dbcp data source**
+*********2014-04-11 18:11:27.757 load task unit*********
+----please choice a execute unit:----
+2014-04-11 18:11:27.758--BBB--start execute
+2014-04-11 18:11:27.759--AAA--start execute
+2014-04-11 18:11:27.759--BBB--execute successed
+2014-04-11 18:11:27.759--AAA--execute successed
+*********2014-04-11 18:11:27.759 close system module*********
+**close dbcp data source**
+*********2014-04-11 18:15:44.826 load system module*********
+**load dbcp data source**
+*********2014-04-11 18:15:44.838 load task unit*********
+----please choice a execute unit:----
+2014-04-11 18:15:44.839--BBB--start execute
+2014-04-11 18:15:44.839--AAA--start execute
+2014-04-11 18:15:44.839--BBB--execute successed
+2014-04-11 18:15:44.840--AAA--execute successed
+*********2014-04-11 18:15:44.840 close system module*********
+**close dbcp data source**
+*********2014-04-11 18:17:29.799 load system module*********
+**load dbcp data source**
+*********2014-04-11 18:17:29.811 load task unit*********
+----please choice a execute unit:----
+2014-04-11 18:17:29.812--BBB--start execute
+2014-04-11 18:17:29.813--AAA--start execute
+2014-04-11 18:17:29.813--BBB--execute successed
+2014-04-11 18:17:29.813--AAA--execute successed
+*********2014-04-11 18:17:29.813 close system module*********
+**close dbcp data source**

@@ -1,0 +1,53 @@
+*********2014-01-08 14:16:38.729 load system module*********
+**加载数据源**
+MLog clients using log4j logging.
+Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+*********2014-01-08 14:16:39.729 load task unit*********
+2014-01-08 14:16:39.729--recharge dump has been generated successfully!--start execute
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2zi2ti8zvd1mr217d5fxb|13c468a, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.driver.OracleDriver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2zi2ti8zvd1mr217d5fxb|13c468a, idleConnectionTestPeriod -> 0, initialPoolSize -> 5, jdbcUrl -> jdbc:oracle:thin:@10.65.85.186:1521:ora11g, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 30, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2014-01-08 14:16:56.823--recharge dump has been generated successfully!--execute successed
+*********2014-01-08 17:53:50.246 load system module*********
+**加载数据源**
+MLog clients using log4j logging.
+Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+*********2014-01-08 17:53:50.762 load task unit*********
+2014-01-08 17:53:50.762--recharge dump has been generated successfully!--start execute
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> dv6ksd8zvksxqo1fj3705|3b1d04, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.driver.OracleDriver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> dv6ksd8zvksxqo1fj3705|3b1d04, idleConnectionTestPeriod -> 0, initialPoolSize -> 5, jdbcUrl -> jdbc:oracle:thin:@10.65.85.186:1521:ora11g, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 30, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2014-01-08 17:57:40.708--recharge dump has been generated successfully!--execute successed
+*********2014-01-08 18:01:15.490 load system module*********
+**加载数据源**
+*********2014-01-08 18:01:15.568 load task unit*********
+2014-01-08 18:01:15.568--recharge dump has been generated successfully!--start execute
+*********2014-01-08 18:02:36.232 load system module*********
+**加载数据源**
+MLog clients using log4j logging.
+Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+*********2014-01-08 18:02:36.388 load task unit*********
+2014-01-08 18:02:36.388--recharge dump has been generated successfully!--start execute
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> dv6ksd8zvl47gnga83j4|d3d6f, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.driver.OracleDriver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> dv6ksd8zvl47gnga83j4|d3d6f, idleConnectionTestPeriod -> 0, initialPoolSize -> 5, jdbcUrl -> jdbc:oracle:thin:@10.65.85.186:1521:ora11g, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 30, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+*********2014-01-08 18:03:44.476 load system module*********
+**加载dbcp data source**
+*********2014-01-08 18:03:44.491 load task unit*********
+2014-01-08 18:03:44.491--recharge dump has been generated successfully!--start execute
+*********2014-01-08 20:12:52.508 load system module*********
+**加载dbcp data source**
+*********2014-01-08 20:12:52.555 load task unit*********
+2014-01-08 20:12:52.555--recharge dump has been generated successfully!--start execute
+*********2014-01-08 20:17:39.560 load system module*********
+**加载dbcp data source**
+*********2014-01-08 20:17:39.591 load task unit*********
+2014-01-08 20:17:39.591--recharge dump has been generated successfully!--start execute
+*********2014-01-08 20:24:19.875 load system module*********
+**load dbcp data source**
+*********2014-01-08 20:24:19.954 load task unit*********
+2014-01-08 20:24:19.970--recharge dump has been generated successfully!--start execute
+*********2014-01-08 21:40:04.782 load system module*********
+**load dbcp data source**
+*********2014-01-08 21:40:04.797 load task unit*********
+2014-01-08 21:40:04.797--recharge dump has been generated successfully!--start execute
+2014-01-08 21:40:20.819--recharge dump has been generated successfully!--execute successed
+*********2014-01-08 21:41:53.002 load system module*********
+**load dbcp data source**
+*********2014-01-08 21:41:53.018 load task unit*********
+2014-01-08 21:41:53.018--recharge dump has been generated successfully!--start execute
+2014-01-08 21:42:03.970--recharge dump has been generated successfully!--execute successed

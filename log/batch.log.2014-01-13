@@ -1,0 +1,35 @@
+*********2014-01-13 21:24:11.043 load system module*********
+**load dbcp data source**
+*********2014-01-13 21:24:11.231 load task unit*********
+2014-01-13 21:24:11.231--recharge dump generated--start execute
+2014-01-13 21:24:13.057--recharge dump generated--执行失败
+出错信息：
+java.sql.SQLException: ORA-00933: SQL command not properly ended
+
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java:134)
+	at oracle.jdbc.ttc7.TTIoer.processError(TTIoer.java:289)
+	at oracle.jdbc.ttc7.Oall7.receive(Oall7.java:573)
+	at oracle.jdbc.ttc7.TTC7Protocol.doOall7(TTC7Protocol.java:1891)
+	at oracle.jdbc.ttc7.TTC7Protocol.parseExecuteDescribe(TTC7Protocol.java:830)
+	at oracle.jdbc.driver.OracleStatement.doExecuteQuery(OracleStatement.java:2391)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:2672)
+	at oracle.jdbc.driver.OracleStatement.executeQuery(OracleStatement.java:572)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at com.lxq.batch.task.impl.DumpGen.queryMap(DumpGen.java:263)
+	at com.lxq.batch.task.impl.DumpGen.exportCash(DumpGen.java:205)
+	at com.lxq.batch.task.impl.DumpGen.execute(DumpGen.java:62)
+	at com.lxq.batch.task.interf.AbstractTaskUnit.run(AbstractTaskUnit.java:54)
+	at java.lang.Thread.run(Thread.java:662)
+*********2014-01-13 21:24:45.897 load system module*********
+**load dbcp data source**
+*********2014-01-13 21:24:45.975 load task unit*********
+2014-01-13 21:24:45.975--recharge dump generated--start execute
+*********2014-01-13 21:27:47.466 load system module*********
+**load dbcp data source**
+*********2014-01-13 21:27:47.544 load task unit*********
+2014-01-13 21:27:47.544--recharge dump generated--start execute
+*********2014-01-13 21:29:43.734 load system module*********
+**load dbcp data source**
+*********2014-01-13 21:29:43.766 load task unit*********
+2014-01-13 21:29:43.766--recharge dump generated--start execute
+2014-01-13 21:29:46.621--recharge dump generated--execute successed

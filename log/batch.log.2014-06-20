@@ -1,0 +1,94 @@
+*********2014-06-20 00:00:46.374 load system module*********
+**load dbcp data source**
+*********2014-06-20 00:00:46.394 load task unit*********
+----please choice a execute unit:----
+2014-06-20 00:00:46.395--BBB--start execute
+2014-06-20 00:00:46.395--BBB--start execute
+2014-06-20 00:00:46.395--BBB--execute successed
+2014-06-20 00:00:46.396--BBB--start execute
+2014-06-20 00:00:46.396--BBB--execute successed
+2014-06-20 00:00:46.396--BBB--execute successed
+2014-06-20 00:00:46.397--BBB--start execute
+2014-06-20 00:00:46.397--BBB--start execute
+2014-06-20 00:00:46.397--BBB--start execute
+2014-06-20 00:00:46.397--BBB--execute successed
+2014-06-20 00:00:46.397--BBB--execute successed
+2014-06-20 00:00:46.397--BBB--execute successed
+2014-06-20 00:00:46.398--BBB--start execute
+2014-06-20 00:00:46.398--AAA--start execute
+2014-06-20 00:00:46.398--BBB--execute successed
+2014-06-20 00:00:46.398--BBB--start execute
+2014-06-20 00:00:46.399--AAA--execute successed
+2014-06-20 00:00:46.399--BBB--execute successed
+2014-06-20 00:00:46.399--BBB--start execute
+2014-06-20 00:00:46.399--BBB--execute successed
+2014-06-20 00:00:46.399--BBB--start execute
+2014-06-20 00:00:46.400--BBB--start execute
+2014-06-20 00:00:46.400--BBB--execute successed
+2014-06-20 00:00:46.400--BBB--start execute
+2014-06-20 00:00:46.400--BBB--execute successed
+2014-06-20 00:00:46.400--BBB--execute successed
+*********2014-06-20 00:00:46.401 close system module*********
+**close dbcp data source**
+*********2014-06-20 00:01:42.019 load system module*********
+**load dbcp data source**
+*********2014-06-20 00:01:42.038 load task unit*********
+2014-06-20 00:01:42.039--BBB--start execute
+2014-06-20 00:01:42.040--BBB--execute successed
+2014-06-20 00:01:42.040--BBB--start execute
+2014-06-20 00:01:42.040--BBB--execute successed
+2014-06-20 00:01:42.041--BBB--start execute
+2014-06-20 00:01:42.041--BBB--execute successed
+2014-06-20 00:01:42.041--BBB--start execute
+2014-06-20 00:01:42.041--BBB--execute successed
+2014-06-20 00:01:42.042--BBB--start execute
+2014-06-20 00:01:42.042--BBB--start execute
+2014-06-20 00:01:42.042--BBB--execute successed
+2014-06-20 00:01:42.042--BBB--execute successed
+2014-06-20 00:01:42.043--AAA--start execute
+2014-06-20 00:01:42.043--AAA--execute successed
+2014-06-20 00:01:42.043--BBB--start execute
+2014-06-20 00:01:42.044--BBB--execute successed
+2014-06-20 00:01:42.044--BBB--start execute
+2014-06-20 00:01:42.044--BBB--execute successed
+2014-06-20 00:01:42.045--BBB--start execute
+2014-06-20 00:01:42.045--BBB--execute successed
+2014-06-20 00:01:42.045--BBB--start execute
+2014-06-20 00:01:42.045--BBB--start execute
+2014-06-20 00:01:42.046--BBB--execute successed
+2014-06-20 00:01:42.046--BBB--execute successed
+2014-06-20 00:01:42.046--BBB--start execute
+2014-06-20 00:01:42.046--BBB--execute successed
+*********2014-06-20 00:01:42.047 close system module*********
+**close dbcp data source**
+*********2014-06-20 00:06:19.049 load system module*********
+**load dbcp data source**
+*********2014-06-20 00:06:19.069 load task unit*********
+2014-06-20 00:06:19.070--BBB--start execute
+2014-06-20 00:06:19.070--BBB--start execute
+2014-06-20 00:06:19.071--BBB--start execute
+2014-06-20 00:06:29.070--BBB--execute successed
+2014-06-20 00:06:29.070--BBB--start execute
+2014-06-20 00:06:29.071--BBB--execute successed
+2014-06-20 00:06:29.071--BBB--execute successed
+2014-06-20 00:06:29.071--BBB--start execute
+2014-06-20 00:06:29.071--BBB--start execute
+2014-06-20 00:06:39.072--BBB--execute successed
+2014-06-20 00:06:39.072--BBB--execute successed
+2014-06-20 00:06:39.072--BBB--execute successed
+2014-06-20 00:06:39.073--BBB--start execute
+2014-06-20 00:06:39.073--AAA--start execute
+2014-06-20 00:06:39.073--AAA--execute successed
+2014-06-20 00:06:39.073--BBB--start execute
+2014-06-20 00:06:39.075--BBB--start execute
+2014-06-20 00:06:49.073--BBB--execute successed
+2014-06-20 00:06:49.073--BBB--start execute
+2014-06-20 00:06:49.074--BBB--execute successed
+2014-06-20 00:06:49.074--BBB--start execute
+2014-06-20 00:06:49.075--BBB--execute successed
+2014-06-20 00:06:49.075--BBB--start execute
+2014-06-20 00:06:59.074--BBB--execute successed
+2014-06-20 00:06:59.075--BBB--execute successed
+2014-06-20 00:06:59.076--BBB--execute successed
+*********2014-06-20 00:06:59.076 close system module*********
+**close dbcp data source**

@@ -1,0 +1,333 @@
+*********2014-01-10 14:01:06.302 load system module*********
+**load dbcp data source**
+*********2014-01-10 14:01:06.396 load task unit*********
+2014-01-10 14:01:06.396--recharge dump has been generated successfully!--start execute
+2014-01-10 14:01:08.113--recharge dump has been generated successfully!--execute successed
+*********2014-01-10 17:21:26.969 load system module*********
+**load dbcp data source**
+*********2014-01-10 17:21:26.985 load task unit*********
+2014-01-10 17:21:26.985--recharge dump has been generated successfully!--start execute
+*********2014-01-10 17:23:34.516 load system module*********
+**load dbcp data source**
+*********2014-01-10 17:23:34.563 load task unit*********
+2014-01-10 17:23:34.563--recharge dump generated--start execute
+*********2014-01-10 17:25:09.568 load system module*********
+**load dbcp data source**
+*********2014-01-10 17:25:09.583 load task unit*********
+2014-01-10 17:25:09.599--recharge dump generated--start execute
+2014-01-10 17:25:55.416--recharge dump generated--执行失败
+出错信息：
+java.sql.SQLException: ORA-00936: missing expression
+
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java:134)
+	at oracle.jdbc.ttc7.TTIoer.processError(TTIoer.java:289)
+	at oracle.jdbc.ttc7.Oall7.receive(Oall7.java:573)
+	at oracle.jdbc.ttc7.TTC7Protocol.doOall7(TTC7Protocol.java:1891)
+	at oracle.jdbc.ttc7.TTC7Protocol.parseExecuteDescribe(TTC7Protocol.java:830)
+	at oracle.jdbc.driver.OracleStatement.doExecuteQuery(OracleStatement.java:2391)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:2672)
+	at oracle.jdbc.driver.OracleStatement.executeQuery(OracleStatement.java:572)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at com.lxq.batch.task.impl.DumpGen.queryMap(DumpGen.java:258)
+	at com.lxq.batch.task.impl.DumpGen.exportCard(DumpGen.java:105)
+	at com.lxq.batch.task.impl.DumpGen.execute(DumpGen.java:54)
+	at com.lxq.batch.task.interf.AbstractTaskUnit.run(AbstractTaskUnit.java:54)
+	at java.lang.Thread.run(Thread.java:662)
+*********2014-01-10 17:26:00.379 load system module*********
+**load dbcp data source**
+*********2014-01-10 17:26:00.395 load task unit*********
+2014-01-10 17:26:00.395--recharge dump generated--start execute
+2014-01-10 17:26:21.080--recharge dump generated--执行失败
+出错信息：
+java.sql.SQLException: ORA-00936: missing expression
+
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java:134)
+	at oracle.jdbc.ttc7.TTIoer.processError(TTIoer.java:289)
+	at oracle.jdbc.ttc7.Oall7.receive(Oall7.java:573)
+	at oracle.jdbc.ttc7.TTC7Protocol.doOall7(TTC7Protocol.java:1891)
+	at oracle.jdbc.ttc7.TTC7Protocol.parseExecuteDescribe(TTC7Protocol.java:830)
+	at oracle.jdbc.driver.OracleStatement.doExecuteQuery(OracleStatement.java:2391)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:2672)
+	at oracle.jdbc.driver.OracleStatement.executeQuery(OracleStatement.java:572)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at com.lxq.batch.task.impl.DumpGen.queryMap(DumpGen.java:258)
+	at com.lxq.batch.task.impl.DumpGen.exportCard(DumpGen.java:105)
+	at com.lxq.batch.task.impl.DumpGen.execute(DumpGen.java:54)
+	at com.lxq.batch.task.interf.AbstractTaskUnit.run(AbstractTaskUnit.java:54)
+	at java.lang.Thread.run(Thread.java:662)
+*********2014-01-10 17:26:26.308 load system module*********
+**load dbcp data source**
+*********2014-01-10 17:26:26.340 load task unit*********
+2014-01-10 17:26:26.340--recharge dump generated--start execute
+*********2014-01-10 17:31:15.175 load system module*********
+**load dbcp data source**
+*********2014-01-10 17:31:15.222 load task unit*********
+2014-01-10 17:31:15.222--recharge dump generated--start execute
+2014-01-10 17:31:20.276--recharge dump generated--执行失败
+出错信息：
+java.sql.SQLException: ORA-00936: missing expression
+
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java:134)
+	at oracle.jdbc.ttc7.TTIoer.processError(TTIoer.java:289)
+	at oracle.jdbc.ttc7.Oall7.receive(Oall7.java:573)
+	at oracle.jdbc.ttc7.TTC7Protocol.doOall7(TTC7Protocol.java:1891)
+	at oracle.jdbc.ttc7.TTC7Protocol.parseExecuteDescribe(TTC7Protocol.java:830)
+	at oracle.jdbc.driver.OracleStatement.doExecuteQuery(OracleStatement.java:2391)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:2672)
+	at oracle.jdbc.driver.OracleStatement.executeQuery(OracleStatement.java:572)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at com.lxq.batch.task.impl.DumpGen.queryMap(DumpGen.java:263)
+	at com.lxq.batch.task.impl.DumpGen.exportCard(DumpGen.java:110)
+	at com.lxq.batch.task.impl.DumpGen.execute(DumpGen.java:59)
+	at com.lxq.batch.task.interf.AbstractTaskUnit.run(AbstractTaskUnit.java:54)
+	at java.lang.Thread.run(Thread.java:662)
+*********2014-01-10 17:31:35.722 load system module*********
+**load dbcp data source**
+*********2014-01-10 17:31:35.754 load task unit*********
+2014-01-10 17:31:35.754--recharge dump generated--start execute
+2014-01-10 17:31:54.676--recharge dump generated--执行失败
+出错信息：
+java.sql.SQLException: ORA-00936: missing expression
+
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java:134)
+	at oracle.jdbc.ttc7.TTIoer.processError(TTIoer.java:289)
+	at oracle.jdbc.ttc7.Oall7.receive(Oall7.java:573)
+	at oracle.jdbc.ttc7.TTC7Protocol.doOall7(TTC7Protocol.java:1891)
+	at oracle.jdbc.ttc7.TTC7Protocol.parseExecuteDescribe(TTC7Protocol.java:830)
+	at oracle.jdbc.driver.OracleStatement.doExecuteQuery(OracleStatement.java:2391)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:2672)
+	at oracle.jdbc.driver.OracleStatement.executeQuery(OracleStatement.java:572)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at com.lxq.batch.task.impl.DumpGen.queryMap(DumpGen.java:263)
+	at com.lxq.batch.task.impl.DumpGen.exportCard(DumpGen.java:110)
+	at com.lxq.batch.task.impl.DumpGen.execute(DumpGen.java:59)
+	at com.lxq.batch.task.interf.AbstractTaskUnit.run(AbstractTaskUnit.java:54)
+	at java.lang.Thread.run(Thread.java:662)
+*********2014-01-10 17:32:17.174 load system module*********
+**load dbcp data source**
+*********2014-01-10 17:32:17.220 load task unit*********
+2014-01-10 17:32:17.220--recharge dump generated--start execute
+*********2014-01-10 17:33:07.469 load system module*********
+**load dbcp data source**
+*********2014-01-10 17:33:07.516 load task unit*********
+2014-01-10 17:33:07.516--recharge dump generated--start execute
+2014-01-10 17:33:31.134--recharge dump generated--执行失败
+出错信息：
+java.sql.SQLException: org.apache.commons.dbcp.DelegatingStatement with address: "oracle.jdbc.driver.OracleStatement@17dc1cb" is closed.
+	at org.apache.commons.dbcp.DelegatingStatement.checkOpen(DelegatingStatement.java:137)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:206)
+	at com.lxq.batch.task.impl.DumpGen.queryMap(DumpGen.java:263)
+	at com.lxq.batch.task.impl.DumpGen.exportCard(DumpGen.java:112)
+	at com.lxq.batch.task.impl.DumpGen.execute(DumpGen.java:59)
+	at com.lxq.batch.task.interf.AbstractTaskUnit.run(AbstractTaskUnit.java:54)
+	at java.lang.Thread.run(Thread.java:662)
+*********2014-01-10 17:34:02.726 load system module*********
+**load dbcp data source**
+*********2014-01-10 17:34:02.742 load task unit*********
+2014-01-10 17:34:02.742--recharge dump generated--start execute
+2014-01-10 17:34:07.968--recharge dump generated--执行失败
+出错信息：
+java.sql.SQLException: org.apache.commons.dbcp.DelegatingStatement with address: "oracle.jdbc.driver.OracleStatement@4f9fdc" is closed.
+	at org.apache.commons.dbcp.DelegatingStatement.checkOpen(DelegatingStatement.java:137)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:206)
+	at com.lxq.batch.task.impl.DumpGen.queryMap(DumpGen.java:262)
+	at com.lxq.batch.task.impl.DumpGen.exportCard(DumpGen.java:112)
+	at com.lxq.batch.task.impl.DumpGen.execute(DumpGen.java:59)
+	at com.lxq.batch.task.interf.AbstractTaskUnit.run(AbstractTaskUnit.java:54)
+	at java.lang.Thread.run(Thread.java:662)
+*********2014-01-10 17:35:08.657 load system module*********
+**load dbcp data source**
+*********2014-01-10 17:35:08.672 load task unit*********
+2014-01-10 17:35:08.672--recharge dump generated--start execute
+2014-01-10 17:35:21.091--recharge dump generated--execute successed
+*********2014-01-10 17:38:50.602 load system module*********
+**load dbcp data source**
+*********2014-01-10 17:38:50.618 load task unit*********
+2014-01-10 17:38:50.618--recharge dump generated--start execute
+2014-01-10 17:38:56.546--recharge dump generated--执行失败
+出错信息：
+java.lang.NullPointerException
+	at java.util.TreeMap.getEntry(TreeMap.java:324)
+	at java.util.TreeMap.get(TreeMap.java:255)
+	at com.lxq.batch.task.impl.DumpGen.exportCash(DumpGen.java:248)
+	at com.lxq.batch.task.impl.DumpGen.execute(DumpGen.java:62)
+	at com.lxq.batch.task.interf.AbstractTaskUnit.run(AbstractTaskUnit.java:54)
+	at java.lang.Thread.run(Thread.java:662)
+*********2014-01-10 17:40:33.471 load system module*********
+**load dbcp data source**
+*********2014-01-10 17:40:33.517 load task unit*********
+2014-01-10 17:40:33.517--recharge dump generated--start execute
+2014-01-10 17:41:24.842--recharge dump generated--执行失败
+出错信息：
+java.lang.NullPointerException
+	at java.util.TreeMap.getEntry(TreeMap.java:324)
+	at java.util.TreeMap.get(TreeMap.java:255)
+	at com.lxq.batch.task.impl.DumpGen.exportCash(DumpGen.java:248)
+	at com.lxq.batch.task.impl.DumpGen.execute(DumpGen.java:62)
+	at com.lxq.batch.task.interf.AbstractTaskUnit.run(AbstractTaskUnit.java:54)
+	at java.lang.Thread.run(Thread.java:662)
+*********2014-01-10 17:41:28.822 load system module*********
+**load dbcp data source**
+*********2014-01-10 17:41:28.900 load task unit*********
+2014-01-10 17:41:28.900--recharge dump generated--start execute
+*********2014-01-10 17:51:56.570 load system module*********
+**load dbcp data source**
+*********2014-01-10 17:51:56.585 load task unit*********
+2014-01-10 17:51:56.585--recharge dump generated--start execute
+2014-01-10 17:52:02.779--recharge dump generated--execute successed
+*********2014-01-10 17:58:00.788 load system module*********
+**load dbcp data source**
+*********2014-01-10 17:58:00.804 load task unit*********
+2014-01-10 17:58:00.804--recharge dump generated--start execute
+2014-01-10 17:58:07.029--recharge dump generated--execute successed
+*********2014-01-10 18:01:58.344 load system module*********
+**load dbcp data source**
+*********2014-01-10 18:01:58.391 load task unit*********
+2014-01-10 18:01:58.391--recharge dump generated--start execute
+2014-01-10 18:02:19.467--recharge dump generated--执行失败
+出错信息：
+org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Io exception: The Network Adapter could not establish the connection)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1225)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	at com.lxq.batch.ds.manage.DSFactory.getConnection(DSFactory.java:23)
+	at com.lxq.batch.task.impl.DumpGen.execute(DumpGen.java:55)
+	at com.lxq.batch.task.interf.AbstractTaskUnit.run(AbstractTaskUnit.java:54)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.sql.SQLException: Io exception: The Network Adapter could not establish the connection
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java:134)
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java:179)
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java:333)
+	at oracle.jdbc.driver.OracleConnection.<init>(OracleConnection.java:404)
+	at oracle.jdbc.driver.OracleDriver.getConnectionInstance(OracleDriver.java:468)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:314)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:294)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1247)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1221)
+	... 5 more
+*********2014-01-10 18:02:39.265 load system module*********
+**load dbcp data source**
+*********2014-01-10 18:02:39.328 load task unit*********
+2014-01-10 18:02:39.328--recharge dump generated--start execute
+2014-01-10 18:03:00.450--recharge dump generated--执行失败
+出错信息：
+org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Io exception: The Network Adapter could not establish the connection)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1225)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	at com.lxq.batch.ds.manage.DSFactory.getConnection(DSFactory.java:23)
+	at com.lxq.batch.task.impl.DumpGen.execute(DumpGen.java:55)
+	at com.lxq.batch.task.interf.AbstractTaskUnit.run(AbstractTaskUnit.java:54)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.sql.SQLException: Io exception: The Network Adapter could not establish the connection
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java:134)
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java:179)
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java:333)
+	at oracle.jdbc.driver.OracleConnection.<init>(OracleConnection.java:404)
+	at oracle.jdbc.driver.OracleDriver.getConnectionInstance(OracleDriver.java:468)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:314)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:294)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1247)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1221)
+	... 5 more
+*********2014-01-10 18:03:51.099 load system module*********
+**load dbcp data source**
+*********2014-01-10 18:03:51.115 load task unit*********
+2014-01-10 18:03:51.115--recharge dump generated--start execute
+2014-01-10 18:04:12.206--recharge dump generated--执行失败
+出错信息：
+org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Io exception: The Network Adapter could not establish the connection)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1225)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	at com.lxq.batch.ds.manage.DSFactory.getConnection(DSFactory.java:23)
+	at com.lxq.batch.task.impl.DumpGen.execute(DumpGen.java:55)
+	at com.lxq.batch.task.interf.AbstractTaskUnit.run(AbstractTaskUnit.java:54)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.sql.SQLException: Io exception: The Network Adapter could not establish the connection
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java:134)
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java:179)
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java:333)
+	at oracle.jdbc.driver.OracleConnection.<init>(OracleConnection.java:404)
+	at oracle.jdbc.driver.OracleDriver.getConnectionInstance(OracleDriver.java:468)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:314)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:294)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1247)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1221)
+	... 5 more
+*********2014-01-10 18:42:01.450 load system module*********
+**load dbcp data source**
+*********2014-01-10 18:42:01.591 load task unit*********
+2014-01-10 18:42:01.591--recharge dump generated--start execute
+2014-01-10 18:42:08.456--recharge dump generated--执行失败
+出错信息：
+java.io.FileNotFoundException: .\data\Cash_recharge_dump.xls (The process cannot access the file because it is being used by another process)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:84)
+	at com.lxq.batch.task.impl.DumpGen.exportCash(DumpGen.java:256)
+	at com.lxq.batch.task.impl.DumpGen.execute(DumpGen.java:62)
+	at com.lxq.batch.task.interf.AbstractTaskUnit.run(AbstractTaskUnit.java:54)
+	at java.lang.Thread.run(Thread.java:662)
+*********2014-01-10 18:42:42.683 load system module*********
+**load dbcp data source**
+*********2014-01-10 18:42:42.715 load task unit*********
+2014-01-10 18:42:42.715--recharge dump generated--start execute
+*********2014-01-10 18:44:51.697 load system module*********
+**load dbcp data source**
+*********2014-01-10 18:44:51.712 load task unit*********
+2014-01-10 18:44:51.712--recharge dump generated--start execute
+2014-01-10 18:44:57.860--recharge dump generated--execute successed
+*********2014-01-10 18:46:12.522 load system module*********
+**load dbcp data source**
+*********2014-01-10 18:46:12.569 load task unit*********
+2014-01-10 18:46:12.569--recharge dump generated--start execute
+*********2014-01-10 18:47:47.995 load system module*********
+**load dbcp data source**
+*********2014-01-10 18:47:48.011 load task unit*********
+2014-01-10 18:47:48.027--recharge dump generated--start execute
+2014-01-10 18:47:53.143--recharge dump generated--执行失败
+出错信息：
+java.sql.SQLException: ORA-00933: SQL command not properly ended
+
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java:134)
+	at oracle.jdbc.ttc7.TTIoer.processError(TTIoer.java:289)
+	at oracle.jdbc.ttc7.Oall7.receive(Oall7.java:573)
+	at oracle.jdbc.ttc7.TTC7Protocol.doOall7(TTC7Protocol.java:1891)
+	at oracle.jdbc.ttc7.TTC7Protocol.parseExecuteDescribe(TTC7Protocol.java:830)
+	at oracle.jdbc.driver.OracleStatement.doExecuteQuery(OracleStatement.java:2391)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:2672)
+	at oracle.jdbc.driver.OracleStatement.executeQuery(OracleStatement.java:572)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at com.lxq.batch.task.impl.DumpGen.queryMap(DumpGen.java:263)
+	at com.lxq.batch.task.impl.DumpGen.exportCash(DumpGen.java:207)
+	at com.lxq.batch.task.impl.DumpGen.execute(DumpGen.java:62)
+	at com.lxq.batch.task.interf.AbstractTaskUnit.run(AbstractTaskUnit.java:54)
+	at java.lang.Thread.run(Thread.java:662)
+*********2014-01-10 18:48:37.777 load system module*********
+**load dbcp data source**
+*********2014-01-10 18:48:37.793 load task unit*********
+2014-01-10 18:48:37.793--recharge dump generated--start execute
+2014-01-10 18:48:47.402--recharge dump generated--执行失败
+出错信息：
+java.sql.SQLException: ORA-01008: not all variables bound
+
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java:134)
+	at oracle.jdbc.ttc7.TTIoer.processError(TTIoer.java:289)
+	at oracle.jdbc.ttc7.Oall7.receive(Oall7.java:573)
+	at oracle.jdbc.ttc7.TTC7Protocol.doOall7(TTC7Protocol.java:1891)
+	at oracle.jdbc.ttc7.TTC7Protocol.parseExecuteDescribe(TTC7Protocol.java:830)
+	at oracle.jdbc.driver.OracleStatement.doExecuteQuery(OracleStatement.java:2391)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:2672)
+	at oracle.jdbc.driver.OracleStatement.executeQuery(OracleStatement.java:572)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at com.lxq.batch.task.impl.DumpGen.queryMap(DumpGen.java:263)
+	at com.lxq.batch.task.impl.DumpGen.exportCash(DumpGen.java:210)
+	at com.lxq.batch.task.impl.DumpGen.execute(DumpGen.java:62)
+	at com.lxq.batch.task.interf.AbstractTaskUnit.run(AbstractTaskUnit.java:54)
+	at java.lang.Thread.run(Thread.java:662)
+*********2014-01-10 18:49:56.044 load system module*********
+**load dbcp data source**
+*********2014-01-10 18:49:56.060 load task unit*********
+2014-01-10 18:49:56.076--recharge dump generated--start execute
+2014-01-10 18:50:09.883--recharge dump generated--execute successed

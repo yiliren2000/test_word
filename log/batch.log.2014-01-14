@@ -1,0 +1,25 @@
+*********2014-01-14 14:56:08.831 load system module*********
+**load dbcp data source**
+*********2014-01-14 14:56:08.894 load task unit*********
+2014-01-14 14:56:08.894--recharge dump generated--start execute
+2014-01-14 14:56:30.328--recharge dump generated--执行失败
+出错信息：
+org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Io exception: The Network Adapter could not establish the connection)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1225)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	at com.lxq.batch.ds.manage.DSFactory.getConnection(DSFactory.java:23)
+	at com.lxq.batch.task.impl.DumpGen.execute(DumpGen.java:55)
+	at com.lxq.batch.task.interf.AbstractTaskUnit.run(AbstractTaskUnit.java:54)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.sql.SQLException: Io exception: The Network Adapter could not establish the connection
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java:134)
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java:179)
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java:333)
+	at oracle.jdbc.driver.OracleConnection.<init>(OracleConnection.java:404)
+	at oracle.jdbc.driver.OracleDriver.getConnectionInstance(OracleDriver.java:468)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:314)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:294)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1247)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1221)
+	... 5 more

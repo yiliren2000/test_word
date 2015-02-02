@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="" default="copy_dir" basedir=".">
+
+  <property name="dest" value="classes"/>
+  <property name="batch_jar" value="lib/batch.jar"/>
+  <property name="release_dir" value="D:/batch_dump"/>
+    	  
+   <path id="classpath">
+       <fileset dir="${basedir}/lib" includes="*.jar"/>
+   </path>
+    
+  <target name="compile">
+      <mkdir dir="${dest}"/>
+  	  <javac target="1.4" classpathref="classpath" srcdir="src" destdir="${dest}"/>  	
+  </target>  	
+	
+  <target name="jar"  depends="compile">
+	<jar jarfile="${batch_jar}" basedir="${dest}"/>
+  </target>
+
+  <target name="copy_dir" depends="jar">
+	    <copy todir="${release_dir}/etc">
+          <fileset dir="${basedir}/etc"/>
+        </copy>
+	    <copy todir="${release_dir}/lib">
+          <fileset dir="${basedir}/lib"/>
+        </copy>
+	    <copy todir="${release_dir}/data">
+          <fileset dir="${basedir}/data"/>
+        </copy>
+	    <copy todir="${release_dir}/log">
+          <fileset dir="${basedir}/log"/>
+        </copy>
+	    <copy todir="${release_dir}/backup">
+	      <fileset dir="${basedir}/backup"/>
+	    </copy>
+	    <copy todir="${release_dir}/export">
+	      <fileset dir="${basedir}/export"/>
+	    </copy>
+	    <copy todir="${release_dir}">
+          <fileset dir="${basedir}" includes="*.bat,*.sh"/>
+        </copy>
+  </target>
+  
+</project>

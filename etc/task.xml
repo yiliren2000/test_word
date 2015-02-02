@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<task>
+
+	<property name="dataFolder">./data</property>
+
+	<units>
+
+		<unit name="AAA" depends="" executeDate="YYYYMMDD">
+			<describe>AAA</describe>
+			<executeClass>com.lxq.batch.task.impl.AAA</executeClass>
+			
+			<parameter name="param1">param1</parameter>
+			<parameter name="param1">param1</parameter>
+			<parameter name="param1">param1</parameter>
+			
+			<property name="property">property1</property>
+		</unit>
+		
+        <unit name="111" depends="" executeDate="YYYYMMDD">
+            <describe>111</describe>
+            <executeClass>com.lxq.batch.task.impl.BBB</executeClass>
+        </unit>
+		
+        <unit name="BB222B" depends="" executeDate="YYYYMMDD">
+            <describe>BB222B</describe>
+            <executeClass>com.lxq.batch.task.impl.BBB</executeClass>
+        </unit>
+		
+        <unit name="333" depends="" executeDate="YYYYMMDD">
+            <describe>333</describe>
+            <executeClass>com.lxq.batch.task.impl.BBB</executeClass>
+        </unit>
+		
+	</units>
+	
+</task>

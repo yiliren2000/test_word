@@ -1,0 +1,32 @@
+*********2014-06-19 23:59:40.067 load system module*********
+**load dbcp data source**
+*********2014-06-19 23:59:40.088 load task unit*********
+----please choice a execute unit:----
+2014-06-19 23:59:40.090--BBB--start execute
+2014-06-19 23:59:40.090--BBB--start execute
+2014-06-19 23:59:40.090--BBB--execute successed
+2014-06-19 23:59:40.090--BBB--execute successed
+2014-06-19 23:59:40.091--BBB--start execute
+2014-06-19 23:59:40.091--BBB--start execute
+2014-06-19 23:59:40.091--BBB--execute successed
+2014-06-19 23:59:40.091--BBB--execute successed
+2014-06-19 23:59:40.091--BBB--start execute
+2014-06-19 23:59:40.092--BBB--execute successed
+2014-06-19 23:59:40.092--BBB--start execute
+2014-06-19 23:59:40.092--BBB--execute successed
+2014-06-19 23:59:40.093--BBB--start execute
+2014-06-19 23:59:40.093--BBB--start execute
+2014-06-19 23:59:40.093--BBB--execute successed
+2014-06-19 23:59:40.093--BBB--execute successed
+2014-06-19 23:59:40.094--BBB--start execute
+2014-06-19 23:59:40.094--BBB--execute successed
+2014-06-19 23:59:40.094--BBB--start execute
+2014-06-19 23:59:40.094--BBB--start execute
+2014-06-19 23:59:40.095--BBB--execute successed
+2014-06-19 23:59:40.095--AAA--start execute
+2014-06-19 23:59:40.095--BBB--execute successed
+2014-06-19 23:59:40.095--BBB--start execute
+2014-06-19 23:59:40.096--AAA--execute successed
+2014-06-19 23:59:40.096--BBB--execute successed
+*********2014-06-19 23:59:40.096 close system module*********
+**close dbcp data source**
